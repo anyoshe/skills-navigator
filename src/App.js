@@ -1,24 +1,14 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import AuthForm from './Components/LandingPage/SignUpLogin/AuthForm.js';
+import EmployerAuthForm from './Components/LandingPage/SignUpLogin/EmployerAuthForm.js';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+     <div className="App">
+     <AuthForm />
+     <EmployerAuthForm />
+   </div>
   );
 }
 
